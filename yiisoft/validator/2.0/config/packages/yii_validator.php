@@ -14,5 +14,5 @@ return static function (ContainerConfigurator $configurator): void {
 
     // configure service container according to your needs...
 
-    $services->set(Validator::class, ValidatorInterface::class);
+    $services->set(ValidatorInterface::class, Validator::class);
 };
