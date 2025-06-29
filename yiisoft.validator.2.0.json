@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "yiisoft/validator": {
+            "manifest": {
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/yii_validator.php": {
+                    "contents": [
+                        "<?php",
+                        "",
+                        "declare(strict_types=1);",
+                        "",
+                        "use Symfony\\Component\\DependencyInjection\\Loader\\Configurator\\ContainerConfigurator;",
+                        "use Yiisoft\\Validator\\Validator;",
+                        "use Yiisoft\\Validator\\ValidatorInterface;",
+                        "",
+                        "return static function (ContainerConfigurator $configurator): void {",
+                        "    $services = $configurator->services()",
+                        "        ->defaults()",
+                        "            ->autowire()",
+                        "            ->autoconfigure();",
+                        "",
+                        "    // configure service container according to your needs...",
+                        "",
+                        "    $services->set(ValidatorInterface::class, Validator::class);",
+                        "};",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "a9de55a43288dbe0acdb575f378ac4c616e70146"
+        }
+    }
+}

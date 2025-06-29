@@ -1,0 +1,21 @@
+{
+    "aliases": [],
+    "recipes": {
+        "yiisoft/validator": [
+            "2.0",
+            "2.3"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/oneNevan/symfony-public-recipes-demo",
+        "origin_template": "{package}:{version}@github.com/oneNevan/symfony-public-recipes-demo:main",
+        "recipe_template": "https://raw.githubusercontent.com/oneNevan/symfony-public-recipes-demo/flex/pull-5/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/oneNevan/symfony-public-recipes-demo/flex/pull-5/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
