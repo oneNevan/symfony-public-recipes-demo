@@ -1,0 +1,11 @@
+{
+  "recipes": {
+  },
+  "branch": "main",
+  "is_contrib": false,
+  "_links": {
+    "repository": "github.com/oneNevan/symfony-public-recipes-demo",
+    "origin_template": "{package}:{version}@github.com/oneNevan/symfony-public-recipes-demo:main",
+    "recipe_template": "https://api.github.com/repos/oneNevan/symfony-public-recipes-demo/contents/{package_dotted}.{version}.json"
+  }
+}
