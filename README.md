@@ -1,3 +1,5 @@
+## Setup recipes repository
+
 1. Create public repo for public symfony recipes
 2. Configure repository to run GitHub Action Workflows
    1. Settings > Actions > General > Workflow permissions
@@ -12,3 +14,18 @@
 4. Add workflows to main branch, commit and push changes
 5. Add your first recipe (see examples in [symfony/recipes](https://github.com/symfony/recipes))
 6. Check actions to confirm flex/main is automatically updated after push to main
+
+## Add flex endpoint to composer.json in your project:
+
+```json
+{
+   "extra": {
+      "symfony": {
+         "endpoint": [
+            "https://api.github.com/repos/oneNevan/symfony-public-recipes-demo/contents/index.json?ref=flex/main",
+            "flex://defaults"
+         ]
+      }
+   }
+}
+```
