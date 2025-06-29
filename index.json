@@ -1,11 +1,20 @@
 {
-  "recipes": {
-  },
-  "branch": "main",
-  "is_contrib": false,
-  "_links": {
-    "repository": "github.com/oneNevan/symfony-public-recipes-demo",
-    "origin_template": "{package}:{version}@github.com/oneNevan/symfony-public-recipes-demo:main",
-    "recipe_template": "https://api.github.com/repos/oneNevan/symfony-public-recipes-demo/contents/{package_dotted}.{version}.json"
-  }
+    "aliases": [],
+    "recipes": {
+        "yiisoft/validator": [
+            "2.0"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/oneNevan/symfony-public-recipes-demo",
+        "origin_template": "{package}:{version}@github.com/oneNevan/symfony-public-recipes-demo:main",
+        "recipe_template": "https://raw.githubusercontent.com/oneNevan/symfony-public-recipes-demo/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/oneNevan/symfony-public-recipes-demo/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
 }
