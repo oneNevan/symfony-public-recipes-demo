@@ -1,0 +1,8 @@
+{
+    "container": {
+        "yii.validator.default_skip_on_empty": true
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}
