@@ -2,8 +2,7 @@
     "aliases": [],
     "recipes": {
         "yiisoft/validator": [
-            "2.0",
-            "2.3"
+            "2.0"
         ]
     },
     "recipe-conflicts": [],

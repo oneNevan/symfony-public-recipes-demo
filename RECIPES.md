@@ -4,4 +4,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [yiisoft/validator](https://packagist.org/packages/yiisoft/validator) | [2.3](yiisoft/validator/2.3) |
+| [yiisoft/validator](https://packagist.org/packages/yiisoft/validator) | [2.0](yiisoft/validator/2.0) |
